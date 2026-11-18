@@ -1,0 +1,61 @@
+{
+  "intro": {
+    "text_01": "ACCOUNTING & DUTCH TAX",
+    "heading_01": "Accounting without the guesswork.",
+    "text_02": "Bookkeeping, VAT returns and annual accounts for Dutch freelancers, holding companies and small BVs. Choose a package that matches your activity and reporting needs.",
+    "link_01": "Request a proposal →"
+  },
+  "packages": {
+    "text_01": "ACCOUNTING",
+    "heading_01": "Clear monthly pricing.",
+    "text_02": "Choose the accounting package that fits your business.",
+    "heading_02": "ZZP",
+    "text_03": "Freelancers & sole traders",
+    "item_01": "Digital bookkeeping and bank reconciliations",
+    "item_02": "Quarterly VAT returns, where applicable",
+    "item_03": "Annual business profit summary",
+    "item_04": "Standard entrepreneur income-tax return",
+    "item_05": "Routine accounting questions by email",
+    "text_04": "25 Source transactions / month",
+    "text_05": "Free onboarding",
+    "link_01": "Enquire about this plan ›",
+    "heading_03": "Holding BV",
+    "text_06": "Straightforward passive holding companies",
+    "item_06": "Bookkeeping — up to 10 transactions/month",
+    "item_07": "Bank reconciliations",
+    "item_08": "Quarterly VAT returns, where applicable",
+    "item_09": "Annual financial statements (Dutch GAAP)",
+    "item_10": "KVK annual filing",
+    "item_11": "Standard corporate income tax (VPB) return",
+    "item_12": "Routine accounting questions by email",
+    "text_07": "10 Source transactions / month",
+    "link_02": "Enquire about this plan ›",
+    "heading_04": "Business BV",
+    "text_08": "Small operating companies",
+    "item_13": "Bookkeeping — up to 35 transactions/month",
+    "item_14": "Bank reconciliations",
+    "item_15": "Quarterly VAT returns",
+    "item_16": "Annual financial statements (Dutch GAAP)",
+    "item_17": "KVK annual filing",
+    "item_18": "Standard corporate income tax (VPB) return",
+    "item_19": "Routine accounting questions by email",
+    "text_09": "35 Source transactions / month",
+    "link_03": "Enquire about this plan ›",
+    "text_10": "Prices exclude VAT."
+  },
+  "process": {
+    "text_01": "DIGITAL BY DESIGN",
+    "heading_01": "Simple from the start.",
+    "text_02": "A clear process with secure document sharing, predictable deadlines and organised communication.",
+    "heading_02": "Connect",
+    "text_03": "We agree on the scope, collect the records and set up your accounting workflow.",
+    "heading_03": "Keep it current",
+    "text_04": "You share documents digitally. Transactions are matched and exceptions reviewed.",
+    "heading_04": "Stay informed",
+    "text_05": "You receive the agreed accounting, tax filings or financial reports on schedule."
+  },
+  "seo": {
+    "title": "Accounting & Dutch Tax Services | Tellen Finance",
+    "description": "Dutch bookkeeping, VAT, annual accounts and income/corporate tax returns for ZZP, holding and small BVs. Transparent monthly packages."
+  }
+}

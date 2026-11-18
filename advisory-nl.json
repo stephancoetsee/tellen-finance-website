@@ -1,0 +1,64 @@
+{
+  "intro": {
+    "text_01": "FLEXIBELE FINANCIËLE ONDERSTEUNING",
+    "heading_01": "Ervaren finance support. Duidelijke afspraken.",
+    "text_02": "Geplande ondersteuning bij financial control, rapportages, prognoses en technisch accountingadvies, met vooraf afgesproken scope en planning.",
+    "link_01": "Vraag een voorstel aan →"
+  },
+  "deliverables": {
+    "text_01": "CONCRETE RESULTATEN",
+    "heading_01": "Wat wij kunnen opleveren.",
+    "text_02": "Rapportages en analyses ter ondersteuning van uw financefunctie.",
+    "heading_02": "Maandafsluiting",
+    "text_03": "Afsluitchecklist, geselecteerde balansafstemmingen, controle van journaalposten, openstaande punten en variantieanalyse.",
+    "heading_03": "Begroting & liquiditeit",
+    "text_04": "Prognosemodellen op basis van drivers, scenariovergelijkingen, liquiditeitsprognoses en managementrapportages.",
+    "heading_04": "IFRS & Dutch GAAP",
+    "text_05": "Accountingmemo’s, GAAP-verschillenanalyses, conversieboekingen, vergelijkende cijfers en toelichtingen.",
+    "heading_05": "Transactie-accounting",
+    "text_06": "Accountinganalyses voor acquisities en desinvesteringen, consolidatieschema’s en aansluiting tussen lokale en groepsrapportage."
+  },
+  "finance_support": {
+    "text_01": "FINANCIEEL ADVIES",
+    "heading_01": "Flexibele ondersteuning voor uw financefunctie.",
+    "text_02": "Rapportage, beheersing en analyse afgestemd op uw vraag.",
+    "heading_02": "Afsluiten",
+    "text_03": "Controle van accruals, journaalposten, cut-off en de afsluitchecklist.",
+    "heading_03": "Afstemmen",
+    "text_04": "Review van belangrijke balansafstemmingen en openstaande punten.",
+    "heading_04": "Toelichten",
+    "text_05": "Rapportages, variantieanalyse en bespreking van acties.",
+    "text_06": "FINANCIEEL ADVIES",
+    "heading_05": "Finance Support",
+    "text_07": "/uur",
+    "text_08": "Financiële controle, rapportage en advies op basis van uw vraag.",
+    "item_01": "Managementrapportage en financiële analyse",
+    "item_02": "Maandafsluiting en controllerondersteuning",
+    "item_03": "Budgetten, prognoses en kasstromen",
+    "item_04": "Balansbeoordeling en afstemmingen",
+    "item_05": "Financiële modellen en businesscases",
+    "item_06": "Financieel advies en sparring",
+    "text_09": "Per uur, via een afgesproken maandtarief of als afgebakend project.",
+    "link_01": "Bespreek Finance Support ›"
+  },
+  "technical_accounting": {
+    "text_01": "TECHNISCH ACCOUNTINGADVIES · APARTE PROJECTDIENST",
+    "heading_01": "Als accounting",
+    "heading_02": "complex wordt.",
+    "text_02": "Specialistisch IFRS- en Dutch GAAP-advies bij complexe transacties en verslaggevingsvraagstukken. Van conversies van Dutch GAAP naar IFRS tot technische accountingmemo’s: scope, oplevering en prijs spreken we vooraf af.",
+    "item_01": "IFRS- en Dutch GAAP-advies over omzetverantwoording, leases, voorzieningen en complexe contracten",
+    "item_02": "Conversies van Dutch GAAP naar IFRS: gap-analyses, openingsbalansen, conversieboekingen en vergelijkende cijfers",
+    "item_03": "Verslaggevingsvraagstukken bij overnames, desinvesteringen, herstructureringen, goodwill en consolidaties",
+    "item_04": "Technische accountingmemo’s, beoordeling van grondslagen en toelichtingen, en groepsrapportages",
+    "link_01": "Bespreek een technisch project"
+  },
+  "contact": {
+    "heading_01": "Ondersteuning nodig bij een financeproject?",
+    "text_01": "Beschrijf uw accountingvraag, gewenste resultaten en planning. Wij stemmen eerst de scope af voordat we een tarief overeenkomen.",
+    "link_01": "Bespreek een opdracht"
+  },
+  "seo": {
+    "title": "Controllerondersteuning, FP&A en IFRS-advies | Tellen Finance",
+    "description": "Ondersteuning bij maandafsluiting, balansafstemmingen, managementrapportages, begrotingen en IFRS/RJ-advies en conversies."
+  }
+}

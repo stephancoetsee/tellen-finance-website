@@ -1,0 +1,17 @@
+{
+  "intro": {
+    "text_01": "TELLEN FINANCE",
+    "heading_01": "Privacy information",
+    "text_02": "We respect your privacy and aim to collect only the personal information necessary to respond to enquiries and provide our services.",
+    "heading_02": "Website enquiries",
+    "text_03": "Our contact form opens your email application. It does not submit information to a website database. If you send an email, we use the details provided to respond and, where relevant, discuss or prepare an engagement.",
+    "heading_03": "Technical information",
+    "text_04": "The website is hosted through Cloudflare, which may process technical connection and security information. We do not currently use marketing analytics or advertising cookies on this website.",
+    "heading_04": "Your privacy rights",
+    "text_05": "You may request access to, correction of, or deletion of personal information, subject to legal obligations and exemptions. Please use the contact method available on our website."
+  },
+  "seo": {
+    "title": "Privacy information | Tellen Finance",
+    "description": ""
+  }
+}

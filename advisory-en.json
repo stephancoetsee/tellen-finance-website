@@ -1,0 +1,63 @@
+{
+  "intro": {
+    "text_01": "FLEXIBLE SENIOR FINANCE SUPPORT",
+    "heading_01": "Experienced finance support. Defined scope.",
+    "text_02": "Scheduled financial control, reporting, forecasts and technical accounting advice, agreed around a defined scope and realistic timetable.",
+    "link_01": "Request a proposal →"
+  },
+  "deliverables": {
+    "text_01": "DEFINED DELIVERABLES",
+    "heading_01": "What we can deliver.",
+    "text_02": "Selected reporting and analysis deliverables to support your finance function.",
+    "heading_02": "Month-end review",
+    "text_03": "Close checklist, selected balance-sheet reconciliations, journal review, open-items log and concise variance commentary.",
+    "heading_03": "Budgets & cash flow",
+    "text_04": "Driver-based forecast models, scenario comparison, cash-flow bridge and management reporting pack.",
+    "heading_04": "IFRS & Dutch GAAP",
+    "text_05": "Accounting position papers, GAAP gap analyses, conversion journals, comparative restatements and disclosure reviews.",
+    "heading_05": "Transaction accounting",
+    "text_06": "Accounting assessments for acquisitions and disposals, consolidation schedules and local-to-group reporting bridges."
+  },
+  "finance_support": {
+    "text_01": "FINANCE & ADVISORY",
+    "heading_01": "Flexible support for your finance function.",
+    "text_02": "Reporting, control and analysis shaped around your needs.",
+    "heading_02": "Close",
+    "text_03": "Review accruals, journals, cut-off and the close checklist.",
+    "heading_03": "Reconcile",
+    "text_04": "Review key balance-sheet reconciliations and follow-up items.",
+    "heading_04": "Explain",
+    "text_05": "Prepare reporting, investigate variances and discuss actions.",
+    "text_06": "FINANCE & ADVISORY",
+    "heading_05": "Finance Support",
+    "text_07": "Financial control, reporting and commercial support, tailored to the work you need.",
+    "item_01": "Management reporting & financial analysis",
+    "item_02": "Month-end close & controller support",
+    "item_03": "Budgeting, forecasting & cash flow",
+    "item_04": "Balance sheet reviews & reconciliations",
+    "item_05": "Financial modelling & business cases",
+    "item_06": "Financial advice & management sparring",
+    "text_08": "Available hourly, through an agreed monthly retainer or as a fixed-scope project.",
+    "link_01": "Discuss Finance Support ›"
+  },
+  "technical_accounting": {
+    "text_01": "TECHNICAL ACCOUNTING · SEPARATE PROJECT SERVICE",
+    "heading_01": "When accounting",
+    "heading_02": "gets technical.",
+    "text_02": "Specialist, project-based IFRS and Dutch GAAP advice for complex transactions and reporting requirements. From Dutch GAAP-to-IFRS conversions to technical accounting papers, we agree the scope, deliverables and fee upfront.",
+    "item_01": "IFRS and Dutch GAAP assessments for revenue recognition, leases, provisions and complex contracts",
+    "item_02": "Dutch GAAP-to-IFRS conversions: gap analyses, opening balances, adjustment journals and comparatives",
+    "item_03": "Accounting implications of acquisitions, disposals, restructurings, goodwill and consolidation",
+    "item_04": "Technical accounting position papers, policy and disclosure reviews, and local-to-group reporting schedules",
+    "link_01": "Discuss a technical project"
+  },
+  "contact": {
+    "heading_01": "Need help with a defined finance project?",
+    "text_01": "Tell us the accounting question, reporting deliverables and preferred timing. We will propose a scope before agreeing a fee.",
+    "link_01": "Discuss a project"
+  },
+  "seo": {
+    "title": "Fractional Controller, FP&A & IFRS Advisory | Tellen Finance",
+    "description": "Scheduled month-end close, reconciliations, management reporting, budgeting, forecasts, IFRS/Dutch GAAP technical advice and conversions."
+  }
+}
