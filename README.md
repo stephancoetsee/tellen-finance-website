@@ -73,3 +73,5 @@ Open `dist/index.html` with a simple local web server. Source copy and prices ar
 - Prices exclude VAT. Detailed exclusions are governed by the service schedule and engagement letter, not public website cards.
 
 **Important:** Pages CMS saves content to GitHub; it does not itself host the website. The configured Cloudflare Worker remains the hosting/deployment platform. GitHub and Cloudflare account connections and a first approved production deployment are still required before this is live.
+
+Initial live website deployment
