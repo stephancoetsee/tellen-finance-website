@@ -1,0 +1,40 @@
+
+settings:
+  content:
+    merge: true
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: pricing
+    label: Shared prices
+    type: file
+    path: content/pricing.json
+    format: json
+    fields:
+      - {name: zzp_monthly, label: ZZP monthly fee, type: string}
+      - {name: holding_monthly, label: Holding BV monthly fee, type: string}
+      - {name: business_monthly, label: Business BV monthly fee, type: string}
+      - {name: finance_hour, label: Finance Support hourly rate, type: string}
+      - {name: standard_onboarding, label: BV onboarding fee, type: string}
+
+  - name: branding
+    label: Branding and images
+    type: file
+    path: content/branding.json
+    format: json
+    fields:
+      - {name: favicon, label: Website icon, type: image}
+
+  - {name: home_en, label: Homepage - English, type: file, path: content/home-en.json, format: raw}
+  - {name: home_nl, label: Homepage - Dutch, type: file, path: content/home-nl.json, format: raw}
+  - {name: accounting_en, label: Accounting - English, type: file, path: content/accounting-en.json, format: raw}
+  - {name: accounting_nl, label: Accounting - Dutch, type: file, path: content/accounting-nl.json, format: raw}
+  - {name: pricing_en, label: Pricing page - English, type: file, path: content/pricing-en.json, format: raw}
+  - {name: pricing_nl, label: Pricing page - Dutch, type: file, path: content/pricing-nl.json, format: raw}
+  - {name: advisory_en, label: Advisory - English, type: file, path: content/advisory-en.json, format: raw}
+  - {name: advisory_nl, label: Advisory - Dutch, type: file, path: content/advisory-nl.json, format: raw}
+  - {name: privacy_en, label: Privacy - English, type: file, path: content/privacy-en.json, format: raw}
+  - {name: privacy_nl, label: Privacy - Dutch, type: file, path: content/privacy-nl.json, format: raw}
