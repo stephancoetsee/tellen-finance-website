@@ -1,5 +1,3 @@
-
 User-agent: *
-Allow: /
-
-Sitemap: https://tellenfinance.nl/sitemap.xml
+Disallow: /
+# Pre-launch: enable crawling after KVK, business details and contact are verified.

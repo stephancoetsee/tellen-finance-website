@@ -2,7 +2,7 @@
   "intro": {
     "text_01": "TRANSPARENT FEES",
     "heading_01": "Clarity on cost.",
-    "text_02": "Explore accounting packages, flexible Finance Support and specialist Technical Accounting. Prices exclude VAT.",
+    "text_02": "Three service lines: Accounting & Compliance, Business Finance Advisory and separate Technical Accounting projects. Fees exclude VAT.",
     "link_01": "Request a proposal →"
   },
   "packages": {
@@ -24,9 +24,9 @@
     "text_07": "Prices exclude VAT."
   },
   "business": {
-    "text_01": "BUSINESS SERVICES",
-    "heading_01": "Four services. One clear offering.",
-    "text_02": "Fixed-fee accounting and compliance, with flexible finance and specialist accounting support when needed.",
+    "text_01": "THREE SERVICE LINES",
+    "heading_01": "Clear scopes. Different needs.",
+    "text_02": "Accounting has separate ZZP and BV plans; finance advisory is available hourly or by project, and technical accounting is separately quoted.",
     "heading_02": "Holding BV",
     "text_03": "Included",
     "item_01": "Bookkeeping — up to 10 transactions/month",
@@ -47,16 +47,16 @@
     "item_13": "Standard corporate income tax (VPB) return",
     "item_14": "Routine accounting questions by email",
     "link_02": "Discuss requirements ↗",
-    "heading_04": "Finance Support",
+    "heading_04": "Business Finance Advisory",
     "text_05": "Available services",
-    "item_15": "Management reporting & financial analysis",
+    "item_15": "Management reporting & KPI analysis",
     "item_16": "Month-end close & controller support",
-    "item_17": "Budgeting, forecasting & cash flow",
+    "item_17": "Budgeting, FP&A, forecasts & cash flow",
     "item_18": "Balance sheet reviews & reconciliations",
-    "item_19": "Financial modelling & business cases",
+    "item_19": "Profitability, pricing & financial modelling",
     "item_20": "Financial advice & management sparring",
-    "link_03": "Discuss requirements ↗",
-    "heading_05": "Technical Accounting",
+    "link_03": "Explore business advisory ↗",
+    "heading_05": "Technical Accounting Advisory",
     "text_06": "Custom quote",
     "text_07": "Available services",
     "item_21": "IFRS & Dutch GAAP technical accounting advice",
@@ -66,11 +66,11 @@
     "item_25": "Business combinations & acquisition accounting",
     "item_26": "Complex accounting transactions",
     "item_27": "Financial statement preparation & review",
-    "link_04": "Discuss requirements ↗",
+    "link_04": "Explore technical accounting ↗",
     "text_08": "Prices exclude VAT."
   },
   "seo": {
-    "title": "Accounting Packages, Controller & Project Fees | Tellen Finance",
-    "description": "Compare Dutch accounting packages, onboarding fees, controller support plans, standalone tax services and technical advisory quotes."
+    "title": "Pricing | Accounting, Finance Advisory & IFRS | Tellen Finance",
+    "description": "ZZP from €99/month, Holding BV from €109, Business BV from €199, finance advisory €110/hour and technical accounting by project quote."
   }
 }

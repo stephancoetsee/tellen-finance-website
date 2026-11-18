@@ -2,7 +2,7 @@
   "intro": {
     "text_01": "HELDERE TARIEVEN",
     "heading_01": "Duidelijkheid over kosten.",
-    "text_02": "Ontdek boekhoudpakketten, Finance Support en specialistisch accountingadvies. Prijzen exclusief btw.",
+    "text_02": "Drie diensten: Boekhouding & Compliance, Financieel Bedrijfsadvies en afzonderlijk Technisch Accountingadvies. Tarieven exclusief btw.",
     "link_01": "Vraag een voorstel aan →"
   },
   "packages": {
@@ -26,9 +26,9 @@
     "text_09": "Prijzen exclusief btw."
   },
   "business": {
-    "text_01": "ZAKELIJKE DIENSTEN",
-    "heading_01": "Vier diensten. Een helder aanbod.",
-    "text_02": "Boekhouding en aangiften tegen vaste tarieven, met aanvullende financiële en specialistische ondersteuning wanneer nodig.",
+    "text_01": "DRIE DIENSTEN",
+    "heading_01": "Duidelijke afspraken. Verschillende behoeften.",
+    "text_02": "Voor boekhouding zijn er aparte zzp- en bv-pakketten; financieel advies is per uur of project mogelijk en technisch accountingadvies gaat op offerte.",
     "heading_02": "Holding BV",
     "text_03": "Vanaf",
     "text_04": "/maand",
@@ -53,16 +53,16 @@
     "item_13": "Reguliere aangifte vennootschapsbelasting (VPB)",
     "item_14": "Reguliere boekhoudvragen per e-mail",
     "link_02": "Bespreek uw vraag ↗",
-    "heading_04": "Finance Support",
+    "heading_04": "Financieel Bedrijfsadvies",
     "text_09": "/uur",
     "text_10": "Beschikbare diensten",
-    "item_15": "Managementrapportage en financiële analyse",
+    "item_15": "Managementrapportages en KPI-analyse",
     "item_16": "Maandafsluiting en controllerondersteuning",
-    "item_17": "Budgetten, prognoses en kasstromen",
+    "item_17": "Budgettering, FP&A, forecasts en liquiditeit",
     "item_18": "Balansbeoordeling en aansluitingen",
-    "item_19": "Financiële modellen en businesscases",
-    "item_20": "Financieel advies en sparring",
-    "link_03": "Bespreek uw vraag ↗",
+    "item_19": "Rendements-, prijs- en financiële analyses",
+    "item_20": "Financieel sparringpartner voor management",
+    "link_03": "Bekijk financieel advies ↗",
     "heading_05": "Technisch Accountingadvies",
     "text_11": "Offerte",
     "text_12": "Beschikbare diensten",
@@ -73,11 +73,11 @@
     "item_25": "Overname-accounting en bedrijfscombinaties",
     "item_26": "Complexe verslaggevingsvraagstukken",
     "item_27": "Opstellen en beoordelen van jaarrekeningen",
-    "link_04": "Bespreek uw vraag ↗",
+    "link_04": "Bekijk technisch accountingadvies ↗",
     "text_13": "Prijzen exclusief btw."
   },
   "seo": {
-    "title": "Tarieven boekhouding en controllerondersteuning | Tellen Finance",
-    "description": "Vergelijk boekhoudpakketten, opstartkosten, controllerondersteuning, losse belastingdiensten en technisch accountingadvies."
+    "title": "Tarieven | Boekhouding, financieel advies en IFRS | Tellen Finance",
+    "description": "ZZP vanaf €99/maand, Holding BV €109, Business BV €199, financieel advies €110/uur en technische verslaggeving op projectbasis."
   }
 }
