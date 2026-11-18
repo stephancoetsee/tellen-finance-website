@@ -1,12 +1,12 @@
 # Tellen Finance — Browser-editable website
 
-This is the approved **Tellen Finance v3 service-refresh** website, converted for structured browser editing. The visual design and bilingual pages are preserved. It is not yet connected to any GitHub or Cloudflare account.
+This is the revised **Tellen Finance v5 three-service** website, converted for structured browser editing. The visual design and bilingual pages are preserved. It is not yet connected to any GitHub or Cloudflare account.
 
 ## What you can edit
 
 - Use [Pages CMS](https://app.pagescms.org/) after repository connection.
 - Select **Shared prices - all pages** to change ZZP, Holding BV, Business BV, Finance Support and the one-off BV onboarding fee. The site rebuild updates each price wherever it appears.
-- Select **Home - English**, **Home - Dutch**, **Pricing - English**, **Pricing - Dutch**, **Accounting**, or **Advisory** to edit headlines, service descriptions, bullet points, calls to action and illustrated dashboard labels.
+- Select **Home - English**, **Home - Dutch**, **Pricing - English**, **Pricing - Dutch**, **Accounting**, or **Business Advisory** or **Technical Accounting** to edit headlines, service descriptions, bullet points, calls to action and illustrated dashboard labels.
 - Select **Branding and images** to change the favicon. The media library accepts additional images; the existing logo and reporting graphic are HTML/CSS rather than image files and therefore require a code/design change to replace.
 - Edit both English and Dutch text where appropriate; this CMS does not automatically translate.
 
@@ -18,7 +18,7 @@ The file-based CMS stores edits in `content/*.json`. `build.mjs` injects the tex
 2. Confirm that the existing Cloudflare Worker is named **`tellen-finance`**, and that `tellenfinance.nl` is a custom domain of that Worker.
 3. Confirm this project is the website revision you wish to publish. Creating a Git integration does not automatically copy the previous deployed source into GitHub.
 4. Do **not** commit secrets, client data, API tokens or passwords to the GitHub repository. Private repositories still require access controls.
-5. The current contact form references `hello@tellenfinance.nl`; it is not yet confirmed active. Registration details, the privacy notice, and client compliance documents require review before the business publicly accepts engagements.
+5. The contact form is disabled during pre-launch. Do not enable until a verified business mailbox and suitable privacy notice are in place. Registration details, the privacy notice, and client compliance documents require review before the business publicly accepts engagements.
 
 ## One-time setup in the browser
 
@@ -73,5 +73,3 @@ Open `dist/index.html` with a simple local web server. Source copy and prices ar
 - Prices exclude VAT. Detailed exclusions are governed by the service schedule and engagement letter, not public website cards.
 
 **Important:** Pages CMS saves content to GitHub; it does not itself host the website. The configured Cloudflare Worker remains the hosting/deployment platform. GitHub and Cloudflare account connections and a first approved production deployment are still required before this is live.
-
-Initial live website deployment
