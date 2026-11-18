@@ -261,3 +261,42 @@
 @media(max-width:850px){.hero-visual{min-height:510px}}
 @media(max-width:620px){.hero-visual{min-height:440px}.report-content{padding:16px 18px}.report-metric{padding:11px}.report-metric strong{font-size:22px}.report-chart{height:92px;gap:10px;padding:0 6px}.report-bar-pair{height:72px}.report-bottom strong{font-size:14px}.report-bottom span{font-size:8px}.report-chart-head strong{font-size:11px}.business-services-grid,.pricing-grid--two,.pricing-grid--three{grid-template-columns:1fr}.business-service-card{min-height:0;padding:27px 25px}.controller-grid--one .controller-card ul{grid-template-columns:1fr}.audience-v3 .journey{min-height:0}.audience-v3 .journey h3{font-size:29px}}
 @media(max-width:390px){.report-metric strong{font-size:19px}.report-metric small{font-size:9px}.report-chart-head{flex-wrap:wrap}.report-bottom span{white-space:normal}.business-price strong{font-size:31px}}
+
+/* Pre-launch and legal page components retained from v4 */
+.prelaunch-strip{background:#f4f8ff;border-bottom:1px solid #e6edf9;color:#53637d;text-align:center;font-size:12px;letter-spacing:.005em;padding:9px 18px;line-height:1.5}
+.prelaunch-strip a{color:#0067cc;text-decoration:underline;text-underline-offset:3px}
+.availability-dot--prelaunch{background:#8ba0bc;box-shadow:0 0 0 5px #e5eaf1}
+.status-pill{display:inline-flex;gap:8px;align-items:center;font-size:10px;letter-spacing:.12em;font-weight:720;color:#44618a;background:#eef4fc;border-radius:999px;padding:8px 12px;margin-bottom:21px}
+.launch-card h3{font-size:clamp(24px,3vw,31px);line-height:1.12;letter-spacing:-.035em;margin-bottom:16px}
+.launch-card>p{font-size:15px;line-height:1.65;color:#676c76;margin-bottom:22px}
+.launch-actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:16px 0 23px}
+.launch-actions .button-primary{font-size:13px}
+.launch-secondary{color:var(--blue);font-weight:590;font-size:13px}
+.launch-secondary:hover{text-decoration:underline;text-underline-offset:3px}
+.launch-card .form-note{font-size:12px;line-height:1.55;color:#858892;border-top:1px solid #edf0f5;padding-top:17px;margin-top:16px}
+.legal-page{background:linear-gradient(180deg,#fff,#fbfcff);min-height:68vh}
+.legal-page .legal-wrap{max-width:785px}
+.legal-page h1{font-size:clamp(38px,5vw,63px);line-height:1.04;letter-spacing:-.055em;margin:18px 0 18px}
+.legal-page .legal-intro{font-size:17px;line-height:1.65;color:#666a74;max-width:680px}
+.legal-page h2{font-size:22px;letter-spacing:-.03em;margin:34px 0 14px}
+.legal-page p,.legal-page li{line-height:1.7;color:#555b66;font-size:14px}
+.legal-page a:not(.brand){color:#0071e3;text-decoration:underline;text-underline-offset:3px}
+.legal-grid{display:grid;grid-template-columns:180px 1fr;border-top:1px solid #e7eaf0;margin-top:28px}
+.legal-grid dt,.legal-grid dd{padding:14px 0;border-bottom:1px solid #e7eaf0;font-size:14px;margin:0}
+.legal-grid dt{font-weight:650;color:#242932}.legal-grid dd{color:#626873}
+.legal-note{border-radius:16px;background:#f3f7fd;border:1px solid #e4ebf7;padding:16px 20px;margin-top:26px;font-size:13px;color:#4f6080;line-height:1.6}
+.footer-links{display:flex;gap:18px;flex-wrap:wrap}
+.footer-links>a:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:620px){.prelaunch-strip{font-size:11px;padding:8px 12px}.launch-actions{align-items:flex-start;flex-direction:column}.legal-grid{grid-template-columns:1fr}.legal-grid dt{border-bottom:0;padding-bottom:2px}.legal-grid dd{padding-top:0}}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+
+/* Tellen v5: service separation and founder updates */
+.brand-word{font-size:31.9px}.brand-category{font-size:13.2px}
+.outcomes-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.outcomes-grid .service-card{min-height:235px;padding:31px}.outcomes-grid .service-icon{font-weight:700;font-size:13px;letter-spacing:.07em;color:#2a75cc}.outcomes-grid .service-card p{font-size:15px;line-height:1.6}
+.founder-profile-link{display:inline-block;margin-top:15px;color:#0071e3;font-size:14px;font-weight:600;text-underline-offset:3px}.founder-profile-link:hover{text-decoration:underline}
+@media(max-width:1150px){.links{gap:11px;font-size:11.2px}.nav-tools{gap:10px}.nav-inner{gap:10px}}
+@media(max-width:900px){.outcomes-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.brand-word{font-size:29.7px}.brand-category{font-size:11px}.outcomes-grid{grid-template-columns:1fr}.outcomes-grid .service-card{min-height:0}.close-step p,.experience-row p,.eligibility-card p{font-size:14px}.journey-category,.eyebrow{font-size:11px}.journey-fineprint{font-size:12px}.language-switch{font-size:13px}}
+@media(max-width:440px){.nav-cta{display:none}.about-copy h2{font-size:39px}.hero--redesign h1{overflow-wrap:normal}.journey h3{font-size:30px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pathway-tile,.journey,.service-card{transition:none}}
