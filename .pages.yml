@@ -1,40 +1,2345 @@
-
 settings:
   content:
     merge: true
-
+  commit:
+    templates:
+      update: 'content: update {path} via Pages CMS'
 media:
   input: media
   output: /media
-
 content:
-  - name: pricing
-    label: Shared prices
-    type: file
-    path: content/pricing.json
-    format: json
+- name: accounting-en
+  label: Accounting En
+  type: file
+  path: content/accounting-en.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
     fields:
-      - {name: zzp_monthly, label: ZZP monthly fee, type: string}
-      - {name: holding_monthly, label: Holding BV monthly fee, type: string}
-      - {name: business_monthly, label: Business BV monthly fee, type: string}
-      - {name: finance_hour, label: Finance Support hourly rate, type: string}
-      - {name: standard_onboarding, label: BV onboarding fee, type: string}
-
-  - name: branding
-    label: Branding and images
-    type: file
-    path: content/branding.json
-    format: json
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: packages
+    label: Packages
+    type: object
     fields:
-      - {name: favicon, label: Website icon, type: image}
-
-  - {name: home_en, label: Homepage - English, type: file, path: content/home-en.json, format: raw}
-  - {name: home_nl, label: Homepage - Dutch, type: file, path: content/home-nl.json, format: raw}
-  - {name: accounting_en, label: Accounting - English, type: file, path: content/accounting-en.json, format: raw}
-  - {name: accounting_nl, label: Accounting - Dutch, type: file, path: content/accounting-nl.json, format: raw}
-  - {name: pricing_en, label: Pricing page - English, type: file, path: content/pricing-en.json, format: raw}
-  - {name: pricing_nl, label: Pricing page - Dutch, type: file, path: content/pricing-nl.json, format: raw}
-  - {name: advisory_en, label: Advisory - English, type: file, path: content/advisory-en.json, format: raw}
-  - {name: advisory_nl, label: Advisory - Dutch, type: file, path: content/advisory-nl.json, format: raw}
-  - {name: privacy_en, label: Privacy - English, type: file, path: content/privacy-en.json, format: raw}
-  - {name: privacy_nl, label: Privacy - Dutch, type: file, path: content/privacy-nl.json, format: raw}
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: item_07
+      label: Item 07
+      type: string
+    - name: item_08
+      label: Item 08
+      type: string
+    - name: item_09
+      label: Item 09
+      type: string
+    - name: item_10
+      label: Item 10
+      type: string
+    - name: item_11
+      label: Item 11
+      type: string
+    - name: item_12
+      label: Item 12
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: item_13
+      label: Item 13
+      type: string
+    - name: item_14
+      label: Item 14
+      type: string
+    - name: item_15
+      label: Item 15
+      type: string
+    - name: item_16
+      label: Item 16
+      type: string
+    - name: item_17
+      label: Item 17
+      type: string
+    - name: item_18
+      label: Item 18
+      type: string
+    - name: item_19
+      label: Item 19
+      type: string
+    - name: text_09
+      label: Text 09
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: text_10
+      label: Text 10
+      type: string
+  - name: process
+    label: Process
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+- name: accounting-nl
+  label: Accounting Nl
+  type: file
+  path: content/accounting-nl.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: packages
+    label: Packages
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: text_09
+      label: Text 09
+      type: string
+    - name: text_10
+      label: Text 10
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: item_07
+      label: Item 07
+      type: string
+    - name: item_08
+      label: Item 08
+      type: string
+    - name: item_09
+      label: Item 09
+      type: string
+    - name: item_10
+      label: Item 10
+      type: string
+    - name: item_11
+      label: Item 11
+      type: string
+    - name: item_12
+      label: Item 12
+      type: string
+    - name: text_11
+      label: Text 11
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_12
+      label: Text 12
+      type: string
+    - name: text_13
+      label: Text 13
+      type: string
+    - name: text_14
+      label: Text 14
+      type: string
+    - name: item_13
+      label: Item 13
+      type: string
+    - name: item_14
+      label: Item 14
+      type: string
+    - name: item_15
+      label: Item 15
+      type: string
+    - name: item_16
+      label: Item 16
+      type: string
+    - name: item_17
+      label: Item 17
+      type: string
+    - name: item_18
+      label: Item 18
+      type: string
+    - name: item_19
+      label: Item 19
+      type: string
+    - name: text_15
+      label: Text 15
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: text_16
+      label: Text 16
+      type: string
+  - name: process
+    label: Process
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+- name: advisory-en
+  label: Advisory En
+  type: file
+  path: content/advisory-en.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: deliverables
+    label: Deliverables
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+  - name: finance_support
+    label: Finance support
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: technical_accounting
+    label: Technical accounting
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: item_01
+      label: Item 01
+      type: text
+    - name: item_02
+      label: Item 02
+      type: text
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_01
+      label: Text 01
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+- name: advisory-nl
+  label: Advisory Nl
+  type: file
+  path: content/advisory-nl.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: deliverables
+    label: Deliverables
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: text
+  - name: finance_support
+    label: Finance support
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: text_09
+      label: Text 09
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: technical_accounting
+    label: Technical accounting
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: item_01
+      label: Item 01
+      type: text
+    - name: item_02
+      label: Item 02
+      type: text
+    - name: item_03
+      label: Item 03
+      type: text
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_01
+      label: Text 01
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+- name: branding
+  label: Branding
+  type: file
+  path: content/branding.json
+  format: json
+  fields:
+  - name: favicon
+    label: Favicon
+    type: string
+- name: home-en
+  label: Home En
+  type: file
+  path: content/home-en.json
+  format: json
+  fields:
+  - name: hero
+    label: Hero
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: text_09
+      label: Text 09
+      type: string
+    - name: text_10
+      label: Text 10
+      type: string
+    - name: text_11
+      label: Text 11
+      type: string
+    - name: text_12
+      label: Text 12
+      type: string
+    - name: text_13
+      label: Text 13
+      type: string
+    - name: text_14
+      label: Text 14
+      type: string
+    - name: text_15
+      label: Text 15
+      type: string
+    - name: text_16
+      label: Text 16
+      type: string
+    - name: text_17
+      label: Text 17
+      type: string
+    - name: text_18
+      label: Text 18
+      type: string
+    - name: text_19
+      label: Text 19
+      type: string
+    - name: text_20
+      label: Text 20
+      type: string
+    - name: text_21
+      label: Text 21
+      type: string
+    - name: text_22
+      label: Text 22
+      type: string
+    - name: text_23
+      label: Text 23
+      type: string
+    - name: text_24
+      label: Text 24
+      type: string
+    - name: text_25
+      label: Text 25
+      type: string
+    - name: text_26
+      label: Text 26
+      type: string
+    - name: text_27
+      label: Text 27
+      type: string
+  - name: audiences
+    label: Audiences
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: item_07
+      label: Item 07
+      type: string
+    - name: item_08
+      label: Item 08
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: heading_06
+      label: Heading 06
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: item_09
+      label: Item 09
+      type: string
+    - name: item_10
+      label: Item 10
+      type: string
+    - name: item_11
+      label: Item 11
+      type: string
+    - name: link_04
+      label: Link 04
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+  - name: services
+    label: Services
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: link_04
+      label: Link 04
+      type: string
+  - name: about
+    label: About
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: text_03
+      label: Text 03
+      type: text
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: text_05
+      label: Text 05
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: heading_06
+      label: Heading 06
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: heading_07
+      label: Heading 07
+      type: string
+    - name: text_08
+      label: Text 08
+      type: text
+    - name: heading_08
+      label: Heading 08
+      type: string
+    - name: text_09
+      label: Text 09
+      type: string
+  - name: process
+    label: Process
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+  - name: benefits
+    label: Benefits
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_01b
+      label: Heading 01b
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_05
+      label: Text 05
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+- name: home-nl
+  label: Home Nl
+  type: file
+  path: content/home-nl.json
+  format: json
+  fields:
+  - name: hero
+    label: Hero
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: text_09
+      label: Text 09
+      type: string
+    - name: text_10
+      label: Text 10
+      type: string
+    - name: text_11
+      label: Text 11
+      type: string
+    - name: text_12
+      label: Text 12
+      type: string
+    - name: text_13
+      label: Text 13
+      type: string
+    - name: text_14
+      label: Text 14
+      type: string
+    - name: text_15
+      label: Text 15
+      type: string
+    - name: text_16
+      label: Text 16
+      type: string
+    - name: text_17
+      label: Text 17
+      type: string
+    - name: text_18
+      label: Text 18
+      type: string
+    - name: text_19
+      label: Text 19
+      type: string
+    - name: text_20
+      label: Text 20
+      type: string
+    - name: text_21
+      label: Text 21
+      type: string
+    - name: text_22
+      label: Text 22
+      type: string
+    - name: text_23
+      label: Text 23
+      type: string
+    - name: text_24
+      label: Text 24
+      type: string
+    - name: text_25
+      label: Text 25
+      type: string
+    - name: text_26
+      label: Text 26
+      type: string
+    - name: text_27
+      label: Text 27
+      type: string
+    - name: text_28
+      label: Text 28
+      type: string
+  - name: audiences
+    label: Audiences
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: item_07
+      label: Item 07
+      type: string
+    - name: item_08
+      label: Item 08
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: heading_06
+      label: Heading 06
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: item_09
+      label: Item 09
+      type: string
+    - name: item_10
+      label: Item 10
+      type: string
+    - name: item_11
+      label: Item 11
+      type: string
+    - name: link_04
+      label: Link 04
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+  - name: services
+    label: Services
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: link_04
+      label: Link 04
+      type: string
+  - name: about
+    label: About
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: text_03
+      label: Text 03
+      type: text
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: text_05
+      label: Text 05
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: heading_06
+      label: Heading 06
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: heading_07
+      label: Heading 07
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: heading_08
+      label: Heading 08
+      type: string
+    - name: text_09
+      label: Text 09
+      type: text
+  - name: process
+    label: Process
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+  - name: benefits
+    label: Benefits
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_01b
+      label: Heading 01b
+      type: string
+    - name: text_03
+      label: Text 03
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_05
+      label: Text 05
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+- name: pricing-en
+  label: Pricing En
+  type: file
+  path: content/pricing-en.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: packages
+    label: Packages
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+  - name: business
+    label: Business
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: item_07
+      label: Item 07
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: item_08
+      label: Item 08
+      type: string
+    - name: item_09
+      label: Item 09
+      type: string
+    - name: item_10
+      label: Item 10
+      type: string
+    - name: item_11
+      label: Item 11
+      type: string
+    - name: item_12
+      label: Item 12
+      type: string
+    - name: item_13
+      label: Item 13
+      type: string
+    - name: item_14
+      label: Item 14
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: item_15
+      label: Item 15
+      type: string
+    - name: item_16
+      label: Item 16
+      type: string
+    - name: item_17
+      label: Item 17
+      type: string
+    - name: item_18
+      label: Item 18
+      type: string
+    - name: item_19
+      label: Item 19
+      type: string
+    - name: item_20
+      label: Item 20
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: item_21
+      label: Item 21
+      type: string
+    - name: item_22
+      label: Item 22
+      type: string
+    - name: item_23
+      label: Item 23
+      type: string
+    - name: item_24
+      label: Item 24
+      type: string
+    - name: item_25
+      label: Item 25
+      type: string
+    - name: item_26
+      label: Item 26
+      type: string
+    - name: item_27
+      label: Item 27
+      type: string
+    - name: link_04
+      label: Link 04
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+- name: pricing-nl
+  label: Pricing Nl
+  type: file
+  path: content/pricing-nl.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: packages
+    label: Packages
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: text_09
+      label: Text 09
+      type: string
+  - name: business
+    label: Business
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: item_05
+      label: Item 05
+      type: string
+    - name: item_06
+      label: Item 06
+      type: string
+    - name: item_07
+      label: Item 07
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+    - name: text_07
+      label: Text 07
+      type: string
+    - name: text_08
+      label: Text 08
+      type: string
+    - name: item_08
+      label: Item 08
+      type: string
+    - name: item_09
+      label: Item 09
+      type: string
+    - name: item_10
+      label: Item 10
+      type: string
+    - name: item_11
+      label: Item 11
+      type: string
+    - name: item_12
+      label: Item 12
+      type: string
+    - name: item_13
+      label: Item 13
+      type: string
+    - name: item_14
+      label: Item 14
+      type: string
+    - name: link_02
+      label: Link 02
+      type: string
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_09
+      label: Text 09
+      type: string
+    - name: text_10
+      label: Text 10
+      type: string
+    - name: item_15
+      label: Item 15
+      type: string
+    - name: item_16
+      label: Item 16
+      type: string
+    - name: item_17
+      label: Item 17
+      type: string
+    - name: item_18
+      label: Item 18
+      type: string
+    - name: item_19
+      label: Item 19
+      type: string
+    - name: item_20
+      label: Item 20
+      type: string
+    - name: link_03
+      label: Link 03
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_11
+      label: Text 11
+      type: string
+    - name: text_12
+      label: Text 12
+      type: string
+    - name: item_21
+      label: Item 21
+      type: string
+    - name: item_22
+      label: Item 22
+      type: string
+    - name: item_23
+      label: Item 23
+      type: string
+    - name: item_24
+      label: Item 24
+      type: string
+    - name: item_25
+      label: Item 25
+      type: string
+    - name: item_26
+      label: Item 26
+      type: string
+    - name: item_27
+      label: Item 27
+      type: string
+    - name: link_04
+      label: Link 04
+      type: string
+    - name: text_13
+      label: Text 13
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+- name: pricing
+  label: Shared prices - all pages
+  type: file
+  path: content/pricing.json
+  format: json
+  fields:
+  - name: zzp_monthly
+    label: Zzp monthly
+    type: string
+  - name: holding_monthly
+    label: Holding monthly
+    type: string
+  - name: business_monthly
+    label: Business monthly
+    type: string
+  - name: finance_hour
+    label: Finance hour
+    type: string
+  - name: standard_onboarding
+    label: Standard onboarding
+    type: string
+- name: privacy-en
+  label: Privacy En
+  type: file
+  path: content/privacy-en.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: text
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: text
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: string
+- name: privacy-nl
+  label: Privacy Nl
+  type: file
+  path: content/privacy-nl.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: text
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: text
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: string
+- name: technical-en
+  label: Technical En
+  type: file
+  path: content/technical-en.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: deliverables
+    label: Deliverables
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: text
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: text
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: string
+  - name: technical_accounting
+    label: Technical accounting
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_01
+      label: Text 01
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+- name: technical-nl
+  label: Technical Nl
+  type: file
+  path: content/technical-nl.json
+  format: json
+  fields:
+  - name: intro
+    label: Intro
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: deliverables
+    label: Deliverables
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_02
+      label: Text 02
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_03
+      label: Text 03
+      type: string
+    - name: heading_03
+      label: Heading 03
+      type: string
+    - name: text_04
+      label: Text 04
+      type: text
+    - name: heading_04
+      label: Heading 04
+      type: string
+    - name: text_05
+      label: Text 05
+      type: string
+    - name: heading_05
+      label: Heading 05
+      type: string
+    - name: text_06
+      label: Text 06
+      type: text
+  - name: technical_accounting
+    label: Technical accounting
+    type: object
+    fields:
+    - name: text_01
+      label: Text 01
+      type: string
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: heading_02
+      label: Heading 02
+      type: string
+    - name: text_02
+      label: Text 02
+      type: text
+    - name: item_01
+      label: Item 01
+      type: string
+    - name: item_02
+      label: Item 02
+      type: string
+    - name: item_03
+      label: Item 03
+      type: string
+    - name: item_04
+      label: Item 04
+      type: string
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: heading_01
+      label: Heading 01
+      type: string
+    - name: text_01
+      label: Text 01
+      type: text
+    - name: link_01
+      label: Link 01
+      type: string
+  - name: seo
+    label: Seo
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
