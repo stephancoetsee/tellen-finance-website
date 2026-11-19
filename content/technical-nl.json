@@ -2,31 +2,31 @@
   "intro": {
     "text_01": "TECHNISCH ACCOUNTINGADVIES",
     "heading_01": "Specialistisch advies. Praktische conclusies.",
-    "text_02": "Projectmatig technisch accountingadvies over IFRS, Dutch GAAP en bepaalde US GAAP-vraagstukken, inclusief conversies van Dutch GAAP naar IFRS, accountingmemo’s en complexe transacties.",
+    "text_02": "Specialistische projectmatige ondersteuning voor financiële teams, ondernemers en ondernemingen met complexe verslaggevingsbehoeften. Denk aan conversies van Dutch GAAP naar IFRS en van IFRS naar Dutch GAAP, consolidatie en complexe transacties.",
     "link_01": "Bekijk de aanpak"
   },
   "deliverables": {
     "text_01": "TECHNISCHE WERKZAAMHEDEN",
     "heading_01": "Van vraagstuk naar onderbouwd antwoord.",
     "text_02": "De concrete opleveringen worden per opdracht afgesproken.",
-    "heading_02": "Conversie Dutch GAAP naar IFRS",
-    "text_03": "Gap-analyses, transitieboekingen, openingsbalansen, vergelijkende cijfers en toelichtingen.",
+    "heading_02": "Conversies tussen verslaggevingsstelsels",
+    "text_03": "Verschilanalyse en conversiecorrecties voor Dutch GAAP naar IFRS en IFRS naar Dutch GAAP, openingsbalansen en toelichtingen.",
     "heading_03": "Technische accountingmemo’s",
-    "text_04": "Onderbouwde standpunten over omzet, leases, voorzieningen, financiële instrumenten en complexe transacties.",
-    "heading_04": "Consolidatie & rapportage",
-    "text_05": "Groepscorrecties, rapportageschema’s, consolidatiestaten en jaarrekeningen.",
-    "heading_05": "Transacties & herstructureringen",
-    "text_06": "Verslaggevingsanalyses bij overnames, desinvesteringen, herstructureringen en bedrijfscombinaties."
+    "text_04": "Onderbouwde memo’s en beoordelingen van verslaggevingsgrondslagen bij complexe transacties, schattingsvraagstukken, omzet, leases en voorzieningen.",
+    "heading_04": "Geconsolideerde jaarrekeningen",
+    "text_05": "Consolidatiewerkdocumenten, groepscorrecties, aansluitingen en ondersteuning bij het opstellen van geconsolideerde jaarrekeningen.",
+    "heading_05": "Bedrijfscombinaties & rapportage",
+    "text_06": "Overname-accounting, complexe transacties, het opstellen van jaarrekeningen en verslaggevingstoelichtingen."
   },
   "technical_accounting": {
     "text_01": "AFZONDERLIJKE PROJECTDIENST",
     "heading_01": "Wanneer accounting",
     "heading_02": "complex wordt.",
-    "text_02": "Specialistische dienstverlening voor complexe verslaggeving, niet voor standaardboekhouding of doorlopende FP&A. We starten met een scopebeoordeling en een vooraf overeengekomen projectprijs.",
-    "item_01": "IFRS-, Dutch GAAP- en geselecteerde US GAAP-beoordelingen",
-    "item_02": "Conversieplannen en correcties van Dutch GAAP naar IFRS",
-    "item_03": "Bedrijfscombinaties, desinvesteringen, goodwill en consolidatie",
-    "item_04": "Technische memo’s, grondslagen en beoordeling van toelichtingen",
+    "text_02": "Een specialistische projectdienst voor financiële teams, ondernemers en ondernemingen met complexe verslaggevingsbehoeften. Scope, opleveringen en projectprijs worden vooraf in een offerte vastgelegd.",
+    "item_01": "Conversies van Dutch GAAP naar IFRS en van IFRS naar Dutch GAAP",
+    "item_02": "Geconsolideerde jaarrekeningen en consolidatiewerkdocumenten",
+    "item_03": "Bedrijfscombinaties, overname-accounting en complexe transacties",
+    "item_04": "Technische accountingmemo’s, beoordeling van grondslagen en jaarrekeningtoelichtingen",
     "link_01": "Bekijk de opleveringen"
   },
   "contact": {
