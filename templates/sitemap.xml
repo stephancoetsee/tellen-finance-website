@@ -1,13 +1,17 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tellenfinance.nl/</loc></url>
-  <url><loc>https://tellenfinance.nl/nl</loc></url>
-  <url><loc>https://tellenfinance.nl/accounting</loc></url>
-  <url><loc>https://tellenfinance.nl/boekhouding</loc></url>
-  <url><loc>https://tellenfinance.nl/advisory</loc></url>
-  <url><loc>https://tellenfinance.nl/advies</loc></url>
-  <url><loc>https://tellenfinance.nl/pricing</loc></url>
-  <url><loc>https://tellenfinance.nl/tarieven</loc></url>
-  <url><loc>https://tellenfinance.nl/privacy</loc></url>
-  <url><loc>https://tellenfinance.nl/privacy-nl</loc></url>
+  <url><loc>https://tellenfinance.nl/index.html</loc></url>
+  <url><loc>https://tellenfinance.nl/nl.html</loc></url>
+  <url><loc>https://tellenfinance.nl/accounting.html</loc></url>
+  <url><loc>https://tellenfinance.nl/boekhouding.html</loc></url>
+  <url><loc>https://tellenfinance.nl/advisory.html</loc></url>
+  <url><loc>https://tellenfinance.nl/advies.html</loc></url>
+  <url><loc>https://tellenfinance.nl/technical.html</loc></url>
+  <url><loc>https://tellenfinance.nl/technisch.html</loc></url>
+  <url><loc>https://tellenfinance.nl/pricing.html</loc></url>
+  <url><loc>https://tellenfinance.nl/tarieven.html</loc></url>
+  <url><loc>https://tellenfinance.nl/business.html</loc></url>
+  <url><loc>https://tellenfinance.nl/bedrijf.html</loc></url>
+  <url><loc>https://tellenfinance.nl/privacy.html</loc></url>
+  <url><loc>https://tellenfinance.nl/privacy-nl.html</loc></url>
 </urlset>
