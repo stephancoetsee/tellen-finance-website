@@ -80,25 +80,25 @@
     "link_04": "Explore specialist advice ›"
   },
   "about": {
-    "text_01": "FOUNDER-LED FINANCE EXPERTISE",
-    "heading_01": "Stephan Coetsee,",
-    "heading_02": "CA(SA)",
-    "text_02": "Tellen Finance was founded by Stephan Coetsee, a Chartered Accountant (South Africa), CA(SA), with experience in audit, technical accounting and international group finance.",
-    "text_03": "Stephan previously worked in Accounting and Reporting Advisory at Deloitte Netherlands, advising on IFRS, Dutch GAAP, US GAAP, reporting conversions, complex transactions and audit readiness.",
-    "text_04": "His international finance leadership experience includes financial reporting and consolidation, financial planning and analysis, budgets and forecasts, financial control and commercial performance.",
-    "text_05": "Tellen is an independent practice. Stephan personally scopes and delivers client engagements, agrees deliverables and fees upfront, and remains the direct point of contact throughout.",
-    "link_01": "View services",
-    "link_02": "LinkedIn profile",
-    "heading_03": "Relevant experience.",
-    "heading_04": "Direct accountability.",
-    "heading_05": "CA(SA) · Chartered Accountant",
-    "text_06": "CA(SA), Chartered Accountant, with audit and advisory experience.",
-    "heading_06": "Former Deloitte advisory manager",
-    "text_07": "Previous Deloitte advisory experience in IFRS, Dutch GAAP, conversions and technical accounting.",
-    "heading_07": "International group finance",
-    "text_08": "International finance leadership, reporting, consolidation, FP&A and financial control.",
-    "heading_08": "One point of accountability",
-    "text_09": "Direct personal involvement in each engagement, from scope through agreed deliverables."
+    "text_01": "ABOUT TELLEN FINANCE",
+    "heading_01": "Independent finance",
+    "heading_02": "expertise for better decisions.",
+    "text_02": "Tellen Finance provides accounting, financial advisory and technical accounting support to businesses in the Netherlands.",
+    "text_03": "The work combines reliable financial reporting and compliance with practical insight into performance, cash flow and financial processes.",
+    "text_04": "Specialist support is available for IFRS, Dutch GAAP and US GAAP matters, reporting conversions, consolidation and complex transactions.",
+    "text_05": "Each engagement is scoped around the organisation’s needs, with clear deliverables, transparent fees and direct professional accountability.",
+    "link_01": "Explore services",
+    "link_02": "",
+    "heading_03": "Practical expertise.",
+    "heading_04": "Clear accountability.",
+    "heading_05": "Accounting & reporting",
+    "text_06": "Bookkeeping, reconciliations, financial reporting and statutory compliance.",
+    "heading_06": "Technical accounting",
+    "text_07": "IFRS, Dutch GAAP, US GAAP, reporting conversions and complex accounting matters.",
+    "heading_07": "Finance & performance",
+    "text_08": "Management reporting, consolidation, FP&A, budgets, forecasts and financial control.",
+    "heading_08": "A clear way of working",
+    "text_09": "Defined scope, agreed deliverables, transparent fees and a consistent point of contact."
   },
   "process": {
     "text_01": "DIGITAL BY DESIGN",
@@ -121,7 +121,7 @@
   },
   "seo": {
     "title": "Tellen Finance | Accounting, Business Advisory & Technical Accounting",
-    "description": "Founder-led Dutch bookkeeping and compliance, FP&A and profitability analysis, plus Dutch GAAP to IFRS conversions and technical accounting advisory."
+    "description": "Accounting and tax compliance for Dutch businesses, management reporting, FP&A, profitability analysis and technical accounting advisory."
   },
   "benefits": {
     "text_01": "WHY CLIENTS CHOOSE TELLEN",
@@ -133,6 +133,6 @@
     "text_04": "Management reporting, profitability analysis and cash flow forecasts that make the numbers useful.",
     "heading_03": "Resolve complex matters",
     "text_05": "Technical accounting conclusions, conversion schedules and documented reporting support.",
-    "link_01": "Meet the founder"
+    "link_01": "Explore Tellen Finance"
   }
 }
