@@ -81,25 +81,25 @@
     "link_04": "Bekijk specialistisch advies ›"
   },
   "about": {
-    "text_01": "FINANCE-EXPERTISE VAN DE OPRICHTER",
-    "heading_01": "Stephan Coetsee,",
-    "heading_02": "CA(SA)",
-    "text_02": "Tellen Finance is opgericht door Stephan Coetsee, Chartered Accountant (South Africa), CA(SA), met ervaring in audit, technisch accountingadvies en internationale groepsfinance.",
-    "text_03": "Stephan werkte eerder binnen Accounting and Reporting Advisory bij Deloitte Nederland, waar hij adviseerde over IFRS, Dutch GAAP, US GAAP, verslaggevingsconversies en complexe transacties.",
-    "text_04": "Zijn internationale finance-ervaring omvat financiële rapportage en consolidatie, financial planning & analysis, budgetten en prognoses, financial control en commerciële prestaties.",
-    "text_05": "Tellen is een zelfstandige praktijk. Stephan bepaalt de scope en voert opdrachten persoonlijk uit. Opleveringen en tarieven worden vooraf afgesproken; u heeft rechtstreeks contact met de professional die het werk uitvoert.",
+    "text_01": "OVER TELLEN FINANCE",
+    "heading_01": "Onafhankelijke financiële",
+    "heading_02": "expertise voor betere beslissingen.",
+    "text_02": "Tellen Finance ondersteunt ondernemingen in Nederland met boekhouding, financieel advies en specialistische verslaggevingsondersteuning.",
+    "text_03": "De dienstverlening combineert betrouwbare financiële rapportage en compliance met praktisch inzicht in prestaties, liquiditeit en financiële processen.",
+    "text_04": "Specialistische ondersteuning is beschikbaar voor IFRS, Dutch GAAP en US GAAP, verslaggevingsconversies, consolidatie en complexe transacties.",
+    "text_05": "Iedere opdracht wordt afgestemd op de organisatie, met duidelijke afspraken over werkzaamheden, opleveringen, tarieven en professionele verantwoordelijkheid.",
     "link_01": "Bekijk de diensten",
-    "link_02": "LinkedIn-profiel",
-    "heading_03": "Ervaring die telt.",
-    "heading_04": "Direct aanspreekbaar.",
-    "heading_05": "CA(SA) · Chartered Accountant",
-    "text_06": "CA(SA), Chartered Accountant, met ervaring in audit en advies.",
-    "heading_06": "Voormalig manager bij Deloitte",
-    "text_07": "Eerdere advieservaring bij Deloitte op het gebied van IFRS, Dutch GAAP, conversies en technische verslaggeving.",
-    "heading_07": "Internationale groepsfinance",
-    "text_08": "Internationale finance-ervaring, rapportage, consolidatie, FP&A en financial control.",
-    "heading_08": "Eén aanspreekpunt",
-    "text_09": "Persoonlijke betrokkenheid bij iedere opdracht, van scope tot oplevering."
+    "link_02": "",
+    "heading_03": "Praktische expertise.",
+    "heading_04": "Heldere afspraken.",
+    "heading_05": "Boekhouding & rapportage",
+    "text_06": "Boekhouding, aansluitingen, financiële rapportage en wettelijke compliance.",
+    "heading_06": "Technische verslaggeving",
+    "text_07": "IFRS, Dutch GAAP, US GAAP, verslaggevingsconversies en complexe accountingvraagstukken.",
+    "heading_07": "Finance & prestaties",
+    "text_08": "Managementrapportages, consolidatie, FP&A, budgetten, prognoses en financial control.",
+    "heading_08": "Een duidelijke werkwijze",
+    "text_09": "Afgebakende werkzaamheden, overeengekomen opleveringen, transparante tarieven en een vast aanspreekpunt."
   },
   "process": {
     "text_01": "DIGITAAL WAAR MOGELIJK",
@@ -122,7 +122,7 @@
   },
   "seo": {
     "title": "Tellen Finance | Boekhouding, financieel advies en IFRS-conversies",
-    "description": "Boekhouding voor Nederlandse ondernemers, managementrapportages, FP&A, rendementsanalyse en technisch accountingadvies inclusief Dutch GAAP naar IFRS-conversies."
+    "description": "Boekhouding en fiscale compliance voor Nederlandse ondernemingen, managementrapportages, FP&A, rendementsanalyse en specialistisch accountingadvies."
   },
   "benefits": {
     "text_01": "WAAROM TELLEN",
@@ -134,6 +134,6 @@
     "text_04": "Managementrapportages, rendementsanalyses en liquiditeitsprognoses die cijfers bruikbaar maken.",
     "heading_03": "Complexe vraagstukken",
     "text_05": "Onderbouwde verslaggevingskeuzes, conversieschema’s en rapportageondersteuning.",
-    "link_01": "Maak kennis met de oprichter"
+    "link_01": "Ontdek Tellen Finance"
   }
 }
